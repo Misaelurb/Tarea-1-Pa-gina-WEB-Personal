@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('imagenes/Fondo1.jpg') no-repeat;
+    background-size cover;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.box {
+    width:  500px;
+    background: rgba(0,0,0 .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+-box-img{
+    border-radius: 50%;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li {
+    display: inline-block;
+
+}
+
+.box ul li {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+}
